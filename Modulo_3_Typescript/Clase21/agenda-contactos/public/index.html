@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Declara el tipo de documento como HTML5 y establece el idioma del contenido como ingles-->
+<head>
+    <meta charset="UTF-8">
+    <!--establece la codificacion de caracteres como utf-8 para admitir una amplia variedad de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Permite que el diseno sea responsive, asegurandose que se adapte al ancho del dispositivo del usuario-->
+    <title>Agenda de Contactos</title>
+    <!--define el titulo de la pag que aparecera en la pestana del navegador-->
+    <link rel="stylesheet" href="style.css">
+    <!--incluye una hoja de estilos externa llamada 'style.css' para definir el diseno y estilo visual-->
+</head>
+<body>
+    <div class="container">
+        <!--crea un contenedor principal con la clase 'container' que agrupa el contenido de la pagina-->
+        <h1>Agenda de contactos</h1>
+        <!--Muestra un encabezado principal que sirve como titulo de la pagina-->
+        <form id="contact-form">
+            <!--Inicia un formulario con el identificador unico "contact-form" para gestionar la entrada de datos-->
+            <input type="text" id="name" placeholder="Nombre" required>
+            <!--Campo de entrada para el nombre del contacto. Tiene un marcador de posicion ('Nombre') y es obligatorio-->
+            <input type="email" id="email" placeholder="Correo Electronico" required>
+            <!--Campo de entrada para el email del contacto. Valida automaticamente que sea un correo electronico valido-->
+            <input type="text" id="phone" placeholder="Telefono" required>
+            <!--Campo de entrada para el celular. tambien es obligatorio pero no valida el formato-->
+            <button type="submit">Agregar Contacto</button>
+            <!--Boton que envia los datos del formulario cuando es presionado-->
+        </form>
+        <table>
+            <!--Inicia una tabla que servira para mostrar los contactos agregados-->
+            <thead>
+                <tr>
+                    <!--Define el encabezado de la tabla-->
+                    <th>Nombre</th>
+                    <!--Columna para el nombre del contacto-->
+                    <th>Correo</th>
+                    <!--Columna para el correo del contacto-->
+                    <th>Telefono</th>
+                    <!--Columna para el tel-->
+                    <th>Acciones</th>
+                    <!--Columna para las acciones (eliminar o editar un contacto)-->
+                </tr>
+            </thead>
+            <tbody id="contacts-table"></tbody>
+            <!--Cuerpo de la tabla con el identificador 'contact-table' donde se agregaran directamente los contactos-->
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <!--Incluye un archivo de js externo llamado srcipt.js para manejar la logica funcional de la pagina-->
+</body>
+</html>

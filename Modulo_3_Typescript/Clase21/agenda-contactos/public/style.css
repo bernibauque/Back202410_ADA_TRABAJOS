@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    /*Define la fuente principal como arial, o una fuente sans-serif similar si arial no esta disponible*/
+    margin: 0;
+    /*elimina el margen predeterminado del cuerpo del doc*/
+    padding: 0;
+    /*elimina el relleno predt del cuerpo del doc*/
+    background-color: plum;
+    /*establecer el color de fondo*/
+}
+
+.container {
+    max-width: 800px;
+    /*limita el ancho maximo del contenedor a 600px para evitar que ocupe toda la pantalla*/
+    margin: 20px auto;
+    /*agrega un margen de 20 px alrededor del contenedor y lo centra horizontalmente*/
+    padding: 20px;
+    /*agrega un espacio interno de 20 px dentro del contenedor*/
+    background: #fff;
+    /*color blanco de fondo del contenedor*/
+    border-radius: 8px;
+    /*redondea las esquinas del contenedor con un radio de 8px*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*agrega una ombre suave al rededor del contenedor */
+}
+
+h1 {
+    text-align: center;
+    /*centra horiontalmente el texto de los encabezado*/
+}
+
+form {
+    display: flex;
+    /*usa un modelo de diseno flexible para los elementos del form*/
+    gap: 10px;
+    /*establece un espacio de 10 pix entre los elementos del form*/
+    margin-bottom: 20px;
+    /*establece un margen inferior de 20 px al form*/
+}
+
+form input, form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    /*agrega un relleno interno de 10 px a las celdas y encabezado de la tabla*/
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+button {
+    cursor: pointer;
+}
+
+.delete-btn {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}

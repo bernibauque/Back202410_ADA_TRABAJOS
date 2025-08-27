@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": 2010
+  },
+  {
+    "id": "2",
+    "marca": "Ford",
+    "modelo": "Fiesta",
+    "anio": 2011
+  },
+  {
+    "id": "a13fed85-57e1-4755-912c-dba33455270a",
+    "marca": "berni",
+    "modelo": "berni",
+    "anio": 2015
+  }
+]

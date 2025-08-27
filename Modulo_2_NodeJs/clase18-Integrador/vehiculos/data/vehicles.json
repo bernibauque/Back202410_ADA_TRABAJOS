@@ -1,0 +1,14 @@
+[
+    {
+      "id": "1",
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "año": 2010
+    },
+    {
+      "id": "2",
+      "marca": "Ford",
+      "modelo": "Fiesta",
+      "año": 2015
+    }
+  ]

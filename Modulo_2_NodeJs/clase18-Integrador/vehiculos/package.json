@@ -1,0 +1,13 @@
+{
+  "name": "vehicle-api",
+  "version": "1.0.0",
+  "description": "API para gestionar un sistema de registro de vehículos utilizando un servidor TCP.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
+
