@@ -29,10 +29,11 @@ El repositorio está organizado en **módulos**, cada uno corresponde a un bloqu
 
 | Módulo | Contenido | Icono |
 |---|---|---|
-| 📘 **Modulo_1_Javascript** | Fundamentos de programación con JavaScript: variables, condicionales, bucles, arrays y objetos. | <img alt="JavaScript" src="https://img.icons8.com/color/48/000000/javascript.png"> |
-| ⚡ **Modulo_2_NodeJs** | Introducción a Node.js: crear servidores, manejar módulos y trabajar en backend. | <img alt="Node.js" src="https://img.icons8.com/color/48/000000/nodejs.png"> |
-| 🟦 **Modulo_3_Typescript** | Tipado estático y mejores prácticas con TypeScript. | <img alt="TypeScript" src="https://img.icons8.com/color/48/000000/typescript.png"> |
-| 🗄️ **Modulo_4_BaseDatos** | Conexión a bases de datos (ejemplo: MongoDB en Clase 13). | <img alt="MongoDB" src="https://img.icons8.com/color/48/000000/mongodb.png"> |
+| 📘 **Modulo 1: Introducción a la Programación con JavaScript** | Este curso introductorio está diseñado para sentar las bases de la programación utilizando JavaScript. Se enfocará en los fundamentos esenciales de la programación, incluyendo la lógica de control, manejo de datos, y funciones. | <img alt="JavaScript" src="https://img.icons8.com/color/48/000000/javascript.png"> |
+| ⚡ **Modulo 2: Introducción a Backend - Fundamentos de Node.js** | Introducción a Node.js: crear servidores, manejar módulos y trabajar en backend. | <img alt="Node.js" src="https://img.icons8.com/color/48/000000/nodejs.png"> |
+| 🟦 **Modulo 3: Desarrollo Backend: TypeScript, Programación Orientada a Objetos, ExpressJS, API REST y CRUDt** | El objetivo de este curso avanzado es profundizar los conocimientos del uso de TypeScript. Aprenderás a aplicar Programación Orientada a Objetos (POO) en el contexto de TypeScript Además, se abordará el uso de ExpressJS, API REST y operaciones CRUD, consumir APIs RESTful, y realizar operaciones básicas de creación, lectura, actualización y eliminación de datos. | <img alt="TypeScript" src="https://img.icons8.com/color/48/000000/typescript.png"> |
+| 🗄️ **Modulo 4: Backend Avanzado: Integración de Bases de Datos, Sequelize, Firebase y Seguridad en APIs** | Este curso se centra en la integración y gestión de bases de datos, utilizando Sequelize para trabajar con bases de
+datos SQL y Firebase para la administración de datos en tiempo real y almacenamiento en la nube. Aprenderás a abordar aspectos críticos de seguridad para proteger las APIs, incluyendo la implementación de medidas para prevenir vulnerabilidades comunes. | <img alt="MongoDB" src="https://img.icons8.com/color/48/000000/mongodb.png"> |
 
 ---
 
